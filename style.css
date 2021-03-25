@@ -1,0 +1,218 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*realization-one*/
+
+.realization-one {
+    width: 1120px;
+
+}
+
+.container-one {
+    width: 261px;
+    margin: 35px 517px 106px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.realization-one h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.67;
+    margin-bottom: 9px;
+}
+
+.realization-one p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+}
+
+/*end realization-one*/
+
+
+/*realization-two*/
+
+.realization-two {
+    width: 1120px;
+}
+
+.container-two {
+    margin: 35px 517px 106px 30px;
+}
+
+.container-two img {
+    float: left;
+    margin-right: 18px;
+}
+
+.clearfix::after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.container-two-content {
+    padding-top: 12px;
+}
+
+.container-two-content h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.67;
+    margin-bottom: 8px;
+}
+
+.container-two-content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+}
+
+/*end realization-two*/
+
+
+/*realization three*/
+
+.realization-three {
+    width: 1120px;
+}
+
+.container-three {
+    margin: 35px 517px 106px 30px;
+}
+
+.container-three-content {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 18px;
+
+}
+
+.container-three-content h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.67;
+    margin-bottom: 8px;
+}
+
+.container-three-content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+}
+
+/*end realization three*/
+
+
+/* realization four*/
+
+.realization-four {
+    width: 1120px;
+}
+
+.container-four {
+    width: 230px;
+    margin-bottom: 50px;
+    column-count: 2;
+    align-items: center;
+    margin-left: 30px;
+
+}
+
+.container-four-content {
+    white-space: nowrap;
+    padding-top: 15px ;
+}
+
+.container-four-content h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.67;
+    margin-bottom: 8px;
+}
+
+.container-four-content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+}
+
+/* end realization four*/
+
+
+/*realization five*/
+
+.realization-five {
+    width: 1120px;
+    margin-top: 100px;
+}
+
+.container-five {
+    width: 261px;
+    margin: 35px 517px 106px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.container-five-content h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.67;
+    margin-bottom: 8px;
+}
+
+.container-five-content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    white-space: nowrap;
+}
+
+/*end realization five*/
+
+
+/*realization six*/
+
+.realization-six {
+    width: 1120px;
+}
+
+.container-six {
+    padding: 35px 517px 106px 30px;
+    position: relative;
+}
+
+.container-six-content {
+    position: absolute;
+    width: 102px;
+    height: 28px;
+    left: 145px;
+    top: 47px;
+    white-space: nowrap;
+}
+
+.container-six-content h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.67;
+    margin-bottom: 8px;
+}
+
+.container-six-content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    white-space: nowrap;
+}
+
+
+/*end realization six*/
